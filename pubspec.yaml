@@ -1,0 +1,43 @@
+name: mobintix_ui_kit_demo
+description: >-
+  Public showcase app for mobintix_ui_kit — clone, flutter pub get, flutter run.
+publish_to: none
+
+environment:
+  sdk: ^3.2.0
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobintix_ui_kit: ^0.0.3
+
+# Local development against the private package repo (before publish or when
+# hacking the kit): uncomment and point at your checkout.
+# dependency_overrides:
+#   mobintix_ui_kit:
+#     path: ../../mobintix_ui_kit
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
