@@ -113,8 +113,7 @@ class _AdvancedExampleState extends State<AdvancedExample> {
                     AppBanner(
                       message: 'Your password will expire soon.',
                       variant: AppBannerVariant.warning,
-                      onDismiss: () =>
-                          setState(() => _warningVisible = false),
+                      onDismiss: () => setState(() => _warningVisible = false),
                     ),
                   if (_warningVisible) const VSpace.sm(),
                   const AppBanner(
@@ -160,18 +159,9 @@ class _AdvancedExampleState extends State<AdvancedExample> {
                 spacing: spacing.lg,
                 runSpacing: spacing.sm,
                 children: const [
-                  AppStatusIndicator(
-                    status: AppStatus.online,
-                    showLabel: true,
-                  ),
-                  AppStatusIndicator(
-                    status: AppStatus.away,
-                    showLabel: true,
-                  ),
-                  AppStatusIndicator(
-                    status: AppStatus.busy,
-                    showLabel: true,
-                  ),
+                  AppStatusIndicator(status: AppStatus.online, showLabel: true),
+                  AppStatusIndicator(status: AppStatus.away, showLabel: true),
+                  AppStatusIndicator(status: AppStatus.busy, showLabel: true),
                   AppStatusIndicator(
                     status: AppStatus.offline,
                     showLabel: true,
