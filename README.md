@@ -44,7 +44,7 @@ This repo includes a **`screenshots/`** folder with the same **PNGs and filename
 
 | | Version |
 | --- | --- |
-| **`mobintix_ui_kit`** (pub.dev) | `^0.0.3` |
+| **`mobintix_ui_kit`** (pub.dev) | `^0.0.4` |
 | **Dart** | `^3.2.0` |
 | **Flutter** | `>=3.16.0` |
 
@@ -56,10 +56,10 @@ The kit is developed in a **private** Mobintix repository; **releases are public
 
 | | |
 | --- | --- |
-| **Latest version** | `0.0.3` (published 2026-04-05) |
-| **Changelog** | [pub.dev/packages/mobintix_ui_kit/changelog](https://pub.dev/packages/mobintix_ui_kit/changelog) — e.g. 0.0.3 docs/screenshots/metadata; 0.0.2 Mobintix brand theme and showcase refresh |
+| **Latest version** | `0.0.4` (pub.dev; prior `0.0.3` dated 2026-04-05) |
+| **Changelog** | [pub.dev/packages/mobintix_ui_kit/changelog](https://pub.dev/packages/mobintix_ui_kit/changelog) |
 | **API docs** | [pub.dev/documentation/mobintix_ui_kit/latest](https://pub.dev/documentation/mobintix_ui_kit/latest/) |
-| **This demo** | Depends on **`mobintix_ui_kit: ^0.0.3`** from pub.dev only (`pubspec.lock` → `source: hosted`). No committed `path:` dependency. |
+| **This demo** | Depends on **`mobintix_ui_kit: ^0.0.4`** from pub.dev only (`pubspec.lock` → `source: hosted`). No committed `path:` dependency. |
 
 ---
 
@@ -84,7 +84,7 @@ The demo depends on the kit **from pub.dev** (not a path to a local clone). To t
 dependencies:
   flutter:
     sdk: flutter
-  mobintix_ui_kit: ^0.0.3
+  mobintix_ui_kit: ^0.0.4
 ```
 
 Run `flutter pub get`.

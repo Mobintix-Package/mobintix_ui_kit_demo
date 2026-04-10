@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  mobintix_ui_kit: ^0.0.3
+  mobintix_ui_kit: ^0.0.4
 
 # Maintainers only: temporary local checkout of the private kit repo.
 # Default clones and CI must resolve from pub.dev — do not commit path overrides.
