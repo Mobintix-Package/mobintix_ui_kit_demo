@@ -50,6 +50,17 @@ This repo includes a **`screenshots/`** folder with the same **PNGs and filename
 
 This repo’s `pubspec.yaml` tracks the same constraints as the published package.
 
+### Published package (verified against pub.dev)
+
+The kit is developed in a **private** Mobintix repository; **releases are public** on [pub.dev](https://pub.dev/packages/mobintix_ui_kit).
+
+| | |
+| --- | --- |
+| **Latest version** | `0.0.3` (published 2026-04-05) |
+| **Changelog** | [pub.dev/packages/mobintix_ui_kit/changelog](https://pub.dev/packages/mobintix_ui_kit/changelog) — e.g. 0.0.3 docs/screenshots/metadata; 0.0.2 Mobintix brand theme and showcase refresh |
+| **API docs** | [pub.dev/documentation/mobintix_ui_kit/latest](https://pub.dev/documentation/mobintix_ui_kit/latest/) |
+| **This demo** | Depends on **`mobintix_ui_kit: ^0.0.3`** from pub.dev only (`pubspec.lock` → `source: hosted`). No committed `path:` dependency. |
+
 ---
 
 ## Run the demo
